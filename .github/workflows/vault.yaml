@@ -12,7 +12,7 @@ jobs:
           token: ${{ secrets.VAULT_TOKEN }}
           tlsSkipVerify: true
           secrets: |
-              kv/data/test/MYPASS | MYPASS ;
+              kv/data/test | MYPASS ;
       - run: env
 
 
